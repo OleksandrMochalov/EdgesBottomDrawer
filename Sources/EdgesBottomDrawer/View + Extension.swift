@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-extension View {
-    
+public extension View {
     func bottomDrawerView<DrawerContent: View, PullUpView: View>(
         bottomDrawerHeight: CGFloat = 100,
         @ViewBuilder drawerContent: @escaping () -> DrawerContent,

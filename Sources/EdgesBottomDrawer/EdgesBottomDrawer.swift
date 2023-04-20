@@ -85,5 +85,4 @@ struct BottomDrawerView<Content: View, DrawerContent: View, PullUpView: View>: V
         let progress = -offset / (UIScreen.main.bounds.height - 100)
         return progress * 20
     }
-    
 }
